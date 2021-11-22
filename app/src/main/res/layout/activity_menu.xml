@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#4f5458">
+
+    <androidx.drawerlayout.widget.DrawerLayout
+        android:id="@+id/drawer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <include  layout="@layout/toolbar_main"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/logo2"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="100dp"
+                android:layout_margin="30dp"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/button_back"
+                    android:onClick="onClickCapture"
+                    android:text="CAPTURE"
+                    android:textColor="@color/white"
+                    android:textSize="30dp" />
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:text="LIVE CAM"
+                    android:textSize="30dp"
+                    android:layout_margin="10dp"
+                    android:textColor="@color/white"
+                    android:background="@drawable/button_back"
+                    android:layout_marginBottom="10dp"
+                    android:layout_gravity="center"
+                    android:onClick="onClickCamera"/>
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:text="QUESTION"
+                    android:textSize="30dp"
+                    android:layout_margin="10dp"
+                    android:textColor="@color/white"
+                    android:background="@drawable/button_back"
+                    android:layout_marginBottom="30dp"
+                    android:layout_gravity="center"
+                    android:onClick="onClickQuestion"/>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:text="LOCATION"
+                    android:textSize="30dp"
+                    android:layout_margin="10dp"
+                    android:textColor="@color/white"
+                    android:backgroundTint="@null"
+                    android:background="@drawable/button_back"
+                    android:layout_marginBottom="10dp"
+                    android:layout_gravity="center"
+                    android:onClick="onClickWhere"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <com.google.android.material.navigation.NavigationView
+            android:id="@+id/navigation"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="start|left"
+            app:headerLayout="@layout/header"
+            app:menu="@menu/menu_main" >
+
+        </com.google.android.material.navigation.NavigationView>
+
+    </androidx.drawerlayout.widget.DrawerLayout>
+
+
+</LinearLayout>

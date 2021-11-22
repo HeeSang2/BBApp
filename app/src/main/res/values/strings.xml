@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">BlackBox_v1.0</string>
+
+    <string name="q1">1) BreakBreaker에 대하여</string>
+    <string name="a1"> 본 제품은 차량의 영상을 기록하는 보조 장치입니다.\n
+        본 제품을 사고 정황 및 주행 영상 확인을 위한 참고용으로 사용하세요.\n\n
+        본 제품이 모든 사고 영상을 녹화하여 저장할 수 있는 것은 아닙니다. \n
+        사용 환경에 따라, 충격 감지 센서가 작동하지 않을 정도의 미세한 충격이나 배터리 전압 오차를 유발할 수 있는 강한 충격을 동반하는 사고 영상은 올바르게 기록되지 않을 수 있습니다.</string>
+
+    <string name="q2">2) 회원가입 &amp; 로그인</string>
+    <string name="a2">기존 사용자의 경우, 로그인 후에 로그인합니다. \n
+        처음 사용하는 경우는 회원가입 링크를 클릭하세요.\n\n
+        폼의 항목을 입력 후에, 가입할때 입력한 아이디와 비밀번호로 로그인합니다.\n
+        메뉴바의 마이페이지 항목에서 개인정보를 변경할 수 있습니다.</string>
+
+    <string name="q3">3) 제품위치 설치</string>
+    <string name="a3">운전자의 시야를 방해하지 않고 차량의 전방 전체를 촬영할 수 있는 위치를 선택합니다.\n
+        전방 카메라 렌즈가 차량 앞 유리의 정 중앙에 위치하도록 하세요.\n\n
+        제품 설치 시, 차량 내 무선 설비와의 전파 간섭이 발생할 수 있으니 내비게이션, 도어락 수신부, 샤크 안테나 등과 같은 장치의 배선과 간격을 두고 설치하세요.</string>
+
+    <string name="q4">4) CAPTURE 기능 알아보기</string>
+    <string name="a4">충격 감지시, 사진이 자동으로 촬영됩니다.\n\n
+        날짜별 시간별로 목록이 자동 생성되며, 선택하면 당시의 사진을 확인 할 수 있습니다. </string>
+
+    <string name="q5">5) LIVE 기능 알아보기</string>
+    <string name="a5">실시간 나의 차의 주변을 확인할 수 있습니다. \n
+        각도를 조절하여 양 옆을 확인 가능합니다.  </string>
+
+    <string name="q6">6) QUESTION 알아보기</string>
+    <string name="a6">프로그램의 간단한 소개와 기능을 확인할 수 있습니다.\n\n
+        프로그램 사용을 위한 간단한 메뉴얼과 기능 설명으로 이루어져있습니다.</string>
+
+    <string name="q7">7) LOCATION 기능 알아보기</string>
+    <string name="a7"> GPS를 사용하여 Google Maps로 자동차의 위치를 확인할 수 있습니다.\n\n
+        하단의 버튼을 눌러 서비스센터의 위치를 확인할 수 있습니다.</string>
+
+
+    <string name="close">한 번 더 누르면 프로그램을 종료합니다.</string>
+</resources>

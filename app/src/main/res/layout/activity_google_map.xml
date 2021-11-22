@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GoogleMapActivity"
+    android:orientation="vertical"
+    android:background="@color/colorBackground">
+
+    <ImageView
+        android:id="@+id/image_main_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_baseline_house_24"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="30dp"/>
+
+    <TextView
+        android:id="@+id/tv_Main_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Text"
+        android:textColor="@color/colorMustard"
+        android:textSize="30dp"
+        android:layout_marginTop="30dp"
+        android:gravity="center"/>
+
+    <ImageView
+        android:id="@+id/image_main"
+        android:layout_width="match_parent"
+        android:src="@drawable/building"
+        android:scaleType="fitXY"
+        android:layout_height="300dp"
+        android:layout_marginLeft="30dp"
+        android:layout_below="@id/tv_Main_title"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        android:layout_marginRight="30dp" />
+
+    <ImageView
+        android:id="@+id/image_main_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/image_main"
+        android:layout_marginLeft="50dp"
+        android:src="@drawable/ic_baseline_assistant_photo_24" />
+
+    <ImageView
+        android:id="@+id/image_main_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/image_main_address"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/ic_baseline_call_24"
+        />
+
+    <ImageView
+        android:id="@+id/image_main_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/image_main_phone"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/ic_baseline_access_time_24"
+        />
+
+    <TextView
+        android:id="@+id/tv_main_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/image_main"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:text="TextView"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/tv_main_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_main_address"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="TextView"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/tv_main_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_main_phone"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="TextView"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/bt_main_call"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_main_time"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/button_back"
+        android:onClick="onClick_main_call"
+        android:text="CALL"
+        android:textColor="@color/white" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/bt_main_call"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="80dp"
+        android:text="Back"
+        android:textColor="@color/white"
+        android:background="@drawable/button_back"
+        android:id="@+id/bt_main_check"
+        android:onClick="onClick_main_check"/>
+
+</RelativeLayout>

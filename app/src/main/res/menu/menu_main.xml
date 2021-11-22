@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/mainpage"
+        android:icon="@drawable/ic_baseline_apps_24"
+        android:title="메인 메뉴"
+        />
+
+    <item
+        android:id="@+id/account"
+        android:icon="@drawable/ic_baseline_account_circle_24"
+        android:title="계정"
+        />
+    <item
+        android:id="@+id/capture"
+        android:icon="@drawable/ic_baseline_linked_camera_24"
+        android:title="캡처"
+        />
+    <item
+        android:id="@+id/call_center"
+        android:icon="@drawable/ic_baseline_question_answer_24"
+        android:title="사용 설명서"
+        />
+
+
+    <item
+        android:id="@+id/camera"
+        android:icon="@drawable/ic_baseline_adjust_24"
+        android:title="라이브캠"
+        />
+    <item
+        android:id="@+id/location"
+        android:icon="@drawable/ic_baseline_location_on_24"
+        android:title="위치"
+        />
+
+    <item
+        android:id="@+id/logout"
+        android:icon="@drawable/ic_baseline_vpn_key_24"
+        android:title="로그아웃"
+        />
+
+
+</menu>
+
